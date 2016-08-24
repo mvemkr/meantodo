@@ -1,0 +1,6 @@
+/config/**
+/node_modules
+/public/js/app/**/*
+/public/bower_components/**/*
+/public/js/vendor/**/*
+npm-debug.log

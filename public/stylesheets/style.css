@@ -1,0 +1,39 @@
+.loading-container {
+  padding:50px;
+}
+a {
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a.danger {
+  color: red;
+}
+
+.spacing {
+  margin-bottom: 20px;
+}
+
+.main {
+  border-bottom: #dadada solid 1px;
+  padding-bottom: 20px;
+  min-height: 400px;
+}
+.todo-list h3 {
+  margin: 0;
+}
+
+.btns .btn {
+  margin-left: 5px;
+}
+.todo {
+  margin-bottom:10px;
+}
+
+.add-todo-form {
+  margin-bottom:40px;
+}

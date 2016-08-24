@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <title>MEAN Todo</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="js/vendor/es6-shim/es6-shim.min.js"></script>
+
+    <script src="js/vendor/zone.js/dist/zone.js"></script>
+    <script src="js/vendor/reflect-metadata/Reflect.js"></script>
+    <script src="js/vendor/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+
+<my-app><div class="container loading-container">Loading...</div></my-app>
+<script>
+    System.import('app').catch(function(err){ console.error(err);  });
+</script>
+</body>
+</html>
